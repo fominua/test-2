@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Regular.eot');
+    src: url('fonts/subset-GraphikLCG-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-GraphikLCG-Regular.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Regular.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Regular.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Regular.svg#GraphikLCG-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik LCG';
+    src: url('fonts/subset-GraphikLCG-Semibold.eot');
+    src: url('fonts/subset-GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-GraphikLCG-Semibold.woff2') format('woff2'),
+        url('fonts/subset-GraphikLCG-Semibold.woff') format('woff'),
+        url('fonts/subset-GraphikLCG-Semibold.ttf') format('truetype'),
+        url('fonts/subset-GraphikLCG-Semibold.svg#GraphikLCG-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/subset-Roboto-Regular.eot');
+    src: url('fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('fonts/subset-Roboto-Regular.ttf') format('truetype'),
+        url('fonts/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Graphik LCG', sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.container {
+    max-width: 1290px;
+    margin: auto;
+    display: flex;
+}
+
+.container.header {
+    max-width: 1340px;
+}
+
+.link {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo {
+    margin: 32px 51px 31px 0;
+}
+
+.list {
+    display: flex;
+}
+
+.link.menu {
+    font-size: 15px;
+    line-height: 20px;
+    transition: 0.5s;
+}
+
+.link:hover {
+    color: #FF6336;
+}
+
+.item-menu {
+    margin: 39px 42px 36px 0;
+}
+
+.item-menu:last-child {
+    margin-right: 0;
+}
+
+.button-login {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #808080;
+    margin: auto 5px auto auto;
+    padding: 0 36px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-login:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.button-try {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: #FF6336;
+    color: #FFFFFF;
+    border: none;
+    margin: auto 0 auto 5px;
+    padding: 0 21px 0 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-try:hover {
+    background-color: #FF9C7D;
+}
+
+.about {
+    padding: 129px 0 172px 0;
+}
+
+.title-about {
+    width: 552px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 51px;
+}
+
+.text-about {
+    width: 471px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.button-box {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.button-try2 {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background-color: #FF6336;
+    border: none;
+    margin-right: 10px;
+    padding: 0 41px 0 42px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-try2:hover {
+    background-color: #FF9C7D;
+}
+
+.button-book {
+    font-family: 'Graphik LCG', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    padding: 0 29px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-book:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.section-brand {
+    background-color: #FF9C7D;
+}
+
+.container.brand {
+    flex-flow: column wrap;
+    padding: 108px 0 104px 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.brand-title {
+    width: 720px;
+    text-align: center;
+    margin-left: 340px;
+    margin-bottom: 70px;
+}
+
+.brand-item {
+    margin-right: 103px;
+}
+
+.brand-item:last-child {
+    margin-right: 0;
+}
+
+.list.brand {
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 27px;
+}
+
+.list.profit {
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.item-profit {
+    width: 1290px;
+    display: flex;
+    margin-bottom: 250px;
+}
+
+.card-profit_1 {
+    margin: auto auto auto 0;
+    width: 493px;
+}
+
+.title-profit_1 {
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.text.profit_1 {
+    margin-bottom: 30px;
+}
+
+.underline {
+    text-decoration: underline 1px;
+    color: #000000;
+}
+
+.link.text {
+    font-weight: 600;
+}
+
+.card-profit_2 {
+    margin: auto 0 auto 138px;
+    order: 1;
+}
+
+.title-profit_2 {
+    margin-bottom: 30px;
+    width: 379px;
+}
+
+.text.profit_2 {
+    width: 450px;
+    margin-bottom: 36px;
+}
