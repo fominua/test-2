@@ -52,11 +52,11 @@ header {
 .container {
     max-width: 1290px;
     margin: auto;
-    display: flex;
 }
 
-.container.header {
+.header-container {
     max-width: 1340px;
+    display: flex;
 }
 
 .link {
@@ -132,12 +132,19 @@ header {
     padding: 129px 0 172px 0;
 }
 
-.title-about {
-    width: 552px;
+.about-container {
+    display: flex;
+}
+
+.title {
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
     color: #000000;
+}
+
+.title-about {
+    width: 552px;
     margin-bottom: 51px;
 }
 
@@ -189,16 +196,20 @@ header {
     background-color: rgb(228, 228, 228);
 }
 
-.section-brand {
+.about-image {
+    width: 738px;
+}
+
+.brand {
     background-color: #FF9C7D;
 }
 
-.container.brand {
+.brand-container {
     flex-flow: column wrap;
     padding: 108px 0 104px 0;
 }
 
-h2 {
+.subtitle {
     font-weight: 600;
     font-size: 50px;
     line-height: 60px;
@@ -220,14 +231,13 @@ h2 {
     margin-right: 0;
 }
 
-.list.brand {
+.brand-list {
     flex-wrap: wrap;
     align-items: center;
     margin-left: 27px;
 }
 
-.list.profit {
-    display: flex;
+.profit-list {
     flex-direction: column;
     padding-top: 90px;
     padding-bottom: 150px;
@@ -239,12 +249,13 @@ h2 {
     margin-bottom: 250px;
 }
 
-.card-profit_1 {
+.card-profit1 {
     margin: auto auto auto 0;
     width: 493px;
 }
 
-.title-profit_1 {
+.title-profit1, 
+.text.profit1 {
     margin-bottom: 30px;
 }
 
@@ -254,30 +265,152 @@ h2 {
     color: #000000;
 }
 
-.text.profit_1 {
-    margin-bottom: 30px;
-}
-
 .underline {
     text-decoration: underline 1px;
     color: #000000;
+}
+
+.underline:hover {
+    color: #FF6336;
 }
 
 .link.text {
     font-weight: 600;
 }
 
-.card-profit_2 {
+.card-profit2 {
     margin: auto 0 auto 138px;
     order: 1;
 }
 
-.title-profit_2 {
+.title-profit2 {
     margin-bottom: 30px;
     width: 379px;
 }
 
-.text.profit_2 {
+.text.profit2 {
     width: 450px;
     margin-bottom: 36px;
+}
+
+.card-profit3 {
+    width: 520px;
+    margin: auto auto auto 0;
+}
+
+.title-profit3 {
+    margin-bottom: 30px;
+}
+
+.text.profit3 {
+    margin-bottom: 35px;
+}
+
+.card-profit4 {
+    width: 520px;
+    order: 1;
+    margin: auto 0 auto 138px;
+}
+
+.title-profit4 {
+    margin-bottom: 25px;
+}
+
+.text.profit4 {
+    margin-bottom: 35px;
+}
+
+.item-profit:last-child {
+    margin-bottom: 0;
+}
+
+.examples {
+    background-color: #FFF8E4;
+}
+
+.examples__subtitle {
+    padding-top: 120px;
+    padding-bottom: 58px;
+    text-align: center;
+}
+
+.examples__list {
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 93px;
+}
+
+.examples__card {
+    width: 330px;
+    margin-right: 110px;
+    margin-bottom: 57px;
+}
+
+.examples__card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.examples__card-image {
+    margin: 21px 85px 23px;
+}
+
+.examples__card-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.examples__card-text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.productivity__subtitle {
+    margin-top: 154px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.productivity__list {
+    margin-bottom: 187px;
+}
+
+.productivity__card {
+    width: 430px;
+}
+
+.image-box {
+    height: 201px;
+}
+
+.productivity__card-image_2 {
+    margin-top: 17.5px;
+}
+
+.productivity__card-image_3 {
+    margin-top: 9px;
+}
+
+.image-box {
+    margin-top: 50px;
+    margin-bottom: 49px;
+}
+
+.productivity__card-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 34px;
+}
+
+.productivity__card-text {
+    width: 409px;
+    margin-bottom: 25px;
 }

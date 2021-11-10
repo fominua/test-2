@@ -8,7 +8,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container header">
+        <div class="container header-container">
             <a href="#" class="link logo">
                 <img src="images/logo.png" alt="logo" class="logo-icon">
             </a>
@@ -37,9 +37,9 @@
     </header>
     <main>
         <section class="about">
-            <div class="container">
+            <div class="container about-container">
                 <div class="card-about">
-                    <h1 class="title-about">
+                    <h1 class="title title-about">
                         Accelerate localization from code to delivery
                     </h1>
                     <p class="text-about">
@@ -53,15 +53,15 @@
                         Try all features for 14 days · No credit card required
                     </p>
                 </div>
-                <img src="images/image1.png" alt="image">
+                <img src="images/image1.png" alt="image" class="about-image">
             </div>
         </section>
-        <section class="section-brand">
-            <div class="container brand">
-                <h2 class="brand-title">
+        <section class="brand">
+            <div class="container brand-container">
+                <h2 class="subtitle brand-title">
                     The preferred localization tool of 1500+ companies
                 </h2>
-                <ul class="list brand">
+                <ul class="list brand-list">
                     <li class="brand-item">
                         <img src="images/spec.png" alt="specialized-logo">
                     </li>
@@ -83,15 +83,15 @@
                 </ul>
             </div>
         </section>
-        <section class="section-profit">
+        <section class="profit">
             <div class="container">
-                <ul class="list profit">
+                <ul class="list profit-list">
                     <li class="item-profit">
-                        <div class="card-profit_1">
-                            <h2 class="title-profit_1">
+                        <div class="card-profit1">
+                            <h2 class="subtitle title-profit1">
                                 Control the localization process
                             </h2>
-                            <p class="text profit_1">
+                            <p class="text profit1">
                                 Collaborate with your team in a single workspace. Add and assign <a href="#" class="underline">tasks</a>, track progress, and enjoy a seamless localization workflow where you know who is doing what and when.
                             </p>
                             <a href="#" class="text link">Start now</a>
@@ -99,17 +99,131 @@
                         <img src="images/profit1.png" alt="profit">
                     </li>
                     <li class="item-profit">
-                        <div class="card-profit_2">
-                            <h2 class="title-profit_2">Shorten time to market</h2>
-                            <p class="text profit_2">
+                        <div class="card-profit2">
+                            <h2 class="subtitle title-profit2">
+                                Shorten time to market
+                            </h2>
+                            <p class="text profit2">
                                 Localize your product in parallel with the development cycle. Use the <a href="#" class="underline">Adobe XD</a>, <a href="#" class="underline">Figma</a>, and <a href="#" class="underline">Sketch</a> plugins to start working on translations as soon as the product design is ready. No more idle waiting.
                             </p>
                             <a href="#" class="text link">Start now</a>
                         </div>
                         <img src="images/profit2.png" alt="profit">
                     </li>
-                    <li class="item-profit"></li>
-                    <li class="item-profit"></li>
+                    <li class="item-profit">
+                        <div class="card-profit3">
+                            <h2 class="subtitle title-profit3">
+                                Ensure quality
+                            </h2>
+                            <p class="text profit3">
+                                Use built-in tools — e.g. <a href="#" class="underline">translation memory,</a> machine translation, and <a href="#" class="underline">QA checks</a> — to enhance the quality and cohesion of translations. Add product <a href="#" class="underline">screenshots</a> for context and use the <a href="#" class="underline">in-context editors</a> for instant previews.
+                            </p>
+                            <a href="#" class="text link">Start now</a>
+                        </div>
+                        <img src="images/profit3.png" alt="profit">
+                    </li>
+                    <li class="item-profit">
+                        <div class="card-profit4">
+                            <h2 class="subtitle title-profit4">
+                                Less work for developers
+                            </h2>
+                            <p class="text profit4">
+                                Eliminate the hassle of localization and let developers get back to their main tasks. Save hours with the powerful <a href="#" class="underline">API</a>, <a href="#" class="underline">CLI</a>, <a href="#" class="underline">mobile SDKs</a>, and integrations with  <a href="#" class="underline">GitHub</a>, <a href="#" class="underline">Bitbucket</a>, <a href="#" class="underline">JIRA</a>, and more.
+                            </p>
+                            <a href="#" class="text link">Start now</a>
+                        </div>
+                        <img src="images/profit4.png" alt="profit">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="examples">
+            <div class="container">
+                <h2 class="subtitle examples__subtitle">
+                    What can you localize with Lokalise?
+                </h2>
+                <ul class="list examples__list">
+                    <li class="card examples__card">
+                        <img src="images/web.png" alt="web-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">Web apps</h3>
+                        <p class="examples__card-text">
+                            Any kind of web apps — backend, frontend, single page, blogs — you name it.
+                        </p>
+                    </li>
+                    <li class="card examples__card">
+                        <img src="images/mobile.png" alt="mobile-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">Mobile apps</h3>
+                        <p class="examples__card-text">
+                            Upload any mobile platform language files. Embed <a href="#" class="underline">Lokalise iOS SDK</a> or <a href="#" class="underline">Lokalise Android SDK</a> if you prefer.
+                        </p>
+                    </li>
+                    <li class="card examples__card">
+                        <img src="images/games.png" alt="games-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">Games</h3>
+                        <p class="examples__card-text">
+                            Our cloud software is trusted by many leading game developers around the world.
+                        </p>
+                    </li>
+                    <li class="card examples__card">
+                        <img src="images/docs.png" alt="doocuments-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">Documents</h3>
+                        <p class="examples__card-text">
+                            Upload your DOCX and static HTML files.
+                        </p>
+                    </li>
+                    <li class="card examples__card">
+                        <img src="images/marketing.png" alt="marketing-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">Marketing e-mails</h3>
+                        <p class="examples__card-text">
+                            Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.
+                        </p>
+                    </li>
+                    <li class="card examples__card">
+                        <img src="images/iot.png" alt="iot-icon" class="examples__card-image">
+                        <h3 class="examples__card-title">IoT</h3>
+                        <p class="examples__card-text">
+                            We support most popular localization file formats.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="productivity">
+            <div class="container">
+                <h2 class="subtitle productivity__subtitle">
+                    Boost your localization team’s productivity tenfold
+                </h2>
+                <ul class="list productivity__list">
+                    <li class="card productivity__card">
+                        <div class="image-box">
+                            <img src="images/managers.png" alt="managers-icon" class="productivity__card-image productivity__card-image_1">
+                        </div>
+                        <h3 class="productivity__card-title">Managers</h3>
+                        <p class="text productivity__card-text">
+                            Update existing and launch new features and products while simultaneously localizing them in multiple languages. Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.
+                        </p>
+                        <a href="#" class="text underline">Learn more</a>
+                    </li>
+                    <li class="card productivity__card">
+                        <div class="image-box">
+                            <img src="images/developers.png" alt="developers-icon" class="productivity__card-image productivity__card-image_2">
+                        </div>
+                        <h3 class="productivity__card-title">Developers</h3>
+                        <p class="text productivity__card-text">
+                            Set up an integration with your code repository or your own custom SDK via Lokalise's <a href="#" class="underline">powerful API</a>. Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise for translation.
+                        </p>
+                        <a href="#" class="text underline">Learn more</a>
+                    </li>
+                    <li class="card productivity__card">
+                        <div class="image-box">
+                            <img src="images/translators.png" alt="translators-icon" class="productivity__card-image productivity__card-image_3">
+                        </div>
+                        <h3 class="productivity__card-title">Translators</h3>
+                        <p class="text productivity__card-text">
+                            Eliminate double-work and neverending revisions with visual context (screenshots) and live previews. Improve the quality and speed of your translations with built-in CAT tools, like autocomplete, inline machine translation, and translation memory.
+                        </p>
+                        <a href="#" class="text underline">Learn more</a>
+                    </li>
                 </ul>
             </div>
         </section>
