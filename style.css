@@ -52,6 +52,7 @@ header {
 .container {
     max-width: 1290px;
     margin: auto;
+    padding: 0 20px;
 }
 
 .header-container {
@@ -185,7 +186,8 @@ header {
 }
 
 .about-image {
-    width: 738px;
+    width: 698px;
+    height: 493px;
 }
 
 .brand {
@@ -238,7 +240,7 @@ header {
 }
 
 .card-profit1 {
-    margin: auto auto auto 0;
+    margin: auto 125px auto 0;
     width: 493px;
 }
 
@@ -283,7 +285,7 @@ header {
 
 .card-profit3 {
     width: 520px;
-    margin: auto auto auto 0;
+    margin: auto 98px auto 0;
 }
 
 .title-profit3 {
@@ -297,7 +299,7 @@ header {
 .card-profit4 {
     width: 520px;
     order: 1;
-    margin: auto 0 auto 138px;
+    margin: auto 0 auto 98px;
 }
 
 .title-profit4 {
@@ -637,4 +639,243 @@ header {
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+}
+
+.button-wrap {
+    display: flex;
+    margin: auto 0 auto auto;
+}
+
+@media (max-width: 1290px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .list {
+        flex-wrap: wrap;
+    }
+    .item-menu {
+        margin: 0 30px 0 0;
+    }
+    .button-wrap,
+    .logo {
+        margin: 20px 0;
+    }
+    .about {
+        position: relative;
+        padding: 20px 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .about-container {
+        justify-content: center;
+    }
+    .title {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .title-about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .text-about {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0 auto 30px auto;
+    }
+    .button-box {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .about-image {
+        position: absolute;
+        opacity: 20%;
+    }
+    .brand-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .brand-title {
+        font-size: 50px;
+        margin: 0 auto 30px auto;
+    }
+    .brand-list {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .brand-item {
+        width: 33.33%;
+        margin-right: 0px;
+    }
+    .brand-item .link {
+        margin: auto;
+    }
+    .item-profit {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .card-profit1,
+    .card-profit2,
+    .card-profit3,
+    .card-profit4 {
+        margin: 0 auto 10px auto;
+        width: 100%;
+        max-width: 550px;
+    }
+    .title-profit1,
+    .title-profit2,
+    .title-profit3,
+    .title-profit4 {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .card-profit2,
+    .card-profit4 {
+        order: 0;
+    }
+    .text.profit1,
+    .text.profit2,
+    .text.profit3,
+    .text.profit4 {
+        width: 100%;
+        text-align: justify;
+    }
+    .item-profit img {
+        max-width: 632px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        min-width: 320px;
+    }
+    .button-wrap {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .button-login {
+        margin: 0 0 10px 0;
+    }
+    .button-try {
+        margin-left: 0;
+    }
+    .item-menu {
+        margin: 0 20px 10px 0;
+    }
+    .link.menu {
+        font-size: 18px;
+    }
+    .list {
+        justify-content: center;
+    }
+    .about {
+        margin-bottom: 0;
+    }
+    .about-container {
+        display: block;
+    }
+    .card-about {
+        margin: auto;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .title-about {
+        max-width: 550px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    .text-about {
+        max-width: 470px;
+        width: 100%;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0 auto 20px auto;
+    }
+    .button-box {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .button-try2 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .text-trial {
+        font-size: 13px;
+    }
+    .about-image {
+        display: none;
+    }
+    .brand-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .brand-title {
+        max-width: 720px;
+        width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    .brand-list {
+        margin-left: 0;
+        align-items: center;
+    }
+    .brand-item {
+        transform: scale(0.75);
+        width: 50%;
+        margin-right: 0;
+    }
+    .profit-list {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .item-profit {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .card-profit1,
+    .card-profit2,
+    .card-profit3,
+    .card-profit4 {
+        margin: 0 auto 10px auto;
+        width: 100%;
+        max-width: 550px;
+    }
+    .title-profit1,
+    .title-profit2,
+    .title-profit3,
+    .title-profit4 {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .card-profit2,
+    .card-profit4 {
+        order: 0;
+    }
+    .text.profit1,
+    .text.profit2,
+    .text.profit3,
+    .text.profit4 {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .item-profit img {
+        display: none;
+    }
 }
