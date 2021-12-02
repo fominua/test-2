@@ -127,34 +127,6 @@ header {
     background-color: #FF9C7D;
 }
 
-.about {
-    padding: 129px 0 172px 0;
-}
-
-.about-container {
-    display: flex;
-}
-
-.title {
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 70px;
-    color: #000000;
-}
-
-.title-about {
-    width: 552px;
-    margin-bottom: 51px;
-}
-
-.text-about {
-    width: 471px;
-    font-size: 25px;
-    line-height: 35px;
-    color: #000000;
-    margin-bottom: 50px;
-}
-
 .button-box {
     display: flex;
     margin-bottom: 25px;
@@ -183,11 +155,6 @@ header {
 
 .button-book:hover {
     background-color: rgb(228, 228, 228);
-}
-
-.about-image {
-    width: 698px;
-    height: 493px;
 }
 
 .brand {
